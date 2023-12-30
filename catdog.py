@@ -2,7 +2,6 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from keras.preprocessing import image
 import cv2
-import matplotlib.pyplot as plt
 
 def predict(image_file):
     loaded_model = load_model('acc_8102.keras')
